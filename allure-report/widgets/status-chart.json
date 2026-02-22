@@ -1,0 +1,1 @@
+[{"uid":"508daded71d30e26","name":"Login fallido con credenciales inválidas","time":{"start":1771741120539,"stop":1771741122943,"duration":2404},"status":"passed","severity":"normal"},{"uid":"5934a9df94de8666","name":"Login existoso con credenciales válidas","time":{"start":1771741118119,"stop":1771741120534,"duration":2415},"status":"passed","severity":"normal"}]
