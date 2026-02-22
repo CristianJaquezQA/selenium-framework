@@ -3,7 +3,9 @@ const chrome = require('selenium-webdriver/chrome');
 
 async function buildDriver(){
     const options = new chrome.Options();
-    // options.addArguments('--headless'); // Descomentar esto para modo headless
+    options.addArguments('--headless'); // Descomentar esto para modo headless
+    options.addArguments('--no-sandbox');
+    options.addArguments('--disable-dev-shm-usage');
 
     const driver = await new Builder()
     .forBrowser('chrome')
